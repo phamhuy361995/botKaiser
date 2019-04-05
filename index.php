@@ -1,1 +1,1 @@
-print_r('welcome! Hasagi');
+print_r('welcome! Hasagibot');
