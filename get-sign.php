@@ -16,6 +16,6 @@ function getSign($id=''){
     print_r($url);
 
 }
-getSign('60UO9EOZ');
+getSign('ZWAFOEAF');
 
 ?>
