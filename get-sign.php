@@ -6,7 +6,7 @@ function getSign($id=''){
     $API_KEY = '38e8643fb0dc04e8d65b99994d3dafff';
     $SECRET_KEY = '10a01dcf33762d3a204cb96429918ff6';
 
-    $str = "ctime=".$ctime."id=ZWBW97D6";
+    $str = "ctime=".$ctime."id=".$id;
     $sha256 = hash('sha256',$str);
     $strsig = '/song/get-song-info' . $sha256;
     $sig = hash_hmac('sha512', $strsig, $SECRET_KEY);
@@ -16,6 +16,6 @@ function getSign($id=''){
     print_r($url);
 
 }
-getSign('ZWBW97D6');
+getSign('60UO9EOZ');
 
 ?>
